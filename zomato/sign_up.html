@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+<title>Sign up</title>
+<link rel="stylesheet" href="sign_up.css">
+<link rel="icon" href="icon.png">
+<link rel="php" href="sign_up.php">
+
+<body>
+ 
+<header>
+
+    <ul class="nav">
+        <li> <a href="home.php">home</a></li>
+        <li> <a href="http://localhost/php/zomato/add_restaurant.php">Add your restaurant</a></li>
+        <li> <a href="#">login</a> </li>
+        <li> <a href="sign_up.html">sign up</a> </li>
+        <li> <a href="http://localhost/php/zomato/show_restaurant.php">See Restraurant</a> </li>
+
+    </ul>
+   
+
+</header>
+<form action="sign.php" method="POST" >
+  
+    <div class="container">
+      <h1 id="h1">Sign Up</h1>
+    
+      <hr>
+  
+      <label for="C_ID"></label>
+      <input type="text" placeholder="Enter C ID" name="C_ID" required>
+  <br><br>
+      <label for="C_NAME"></label>
+      <input type="text" placeholder="Enter Customer name" name="C_NAME" required>
+      <br><br>
+
+      <label for="C_CONTACT"></label>
+      <input type="text" placeholder="Enter the contact info" name="C_CONTACT" required>
+      <br><br>
+
+      <label for="C_ADDRESS"></label>
+      <input type="text" placeholder="Enter the address" name="C_ADDRESS" required>
+      <br><br>
+
+      <label for="C_DOB"></label>
+      <input type="text" placeholder="Enter the DOB" name="C_DOB" required>
+      <br><br>
+
+
+<p>Select the Gender:</p>
+
+      <label for="Male">
+      <input type="radio" placeholder="Enter the gender" name="Gender" value = 'm'><b>Male</b></label>
+      <label for="Female">
+      <input type="radio" placeholder="Enter the gender" name="Gender" value = 'f'><b>Female</b></label>
+      <label for="Others">
+      <input type="radio" placeholder="Enter the gender" name="Gender" value = 'o'><b>Others</b></label>
+   
+<br><br>
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+  
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+  
+      <div class="clearfix">
+     
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+
+  </body>
+  </html>

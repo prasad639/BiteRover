@@ -1,0 +1,22 @@
+#end{
+
+    margin-top: 100px;
+    text-align: center;
+    font-size: xx-large;
+    color: red;
+}
+
+h3{
+    text-align: center;
+}
+
+#cancel{
+    margin-top: 20px;
+    margin-left: 150px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}

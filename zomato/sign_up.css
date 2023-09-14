@@ -1,0 +1,138 @@
+* {
+    /* box-sizing: border-box; */
+  /* border-radius: 1px; */
+  
+ 
+}
+.nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  width: 60%;
+  height: auto;
+  overflow: hidden;
+  background-color:rgba(72, 117, 58, 0.848);
+  border-radius: 50px;
+  margin-left: 250px;
+  position:fixed;
+  top: 5px;;
+  
+
+
+}
+.nav li{
+    float:right;
+}
+
+.nav li a{
+    display: block;
+    color:rgb(12, 1, 1);
+    text-align: center;
+    padding:14px 16px;
+    text-decoration:none;
+    border-radius: 10px;
+}
+.nav li a:hover{
+    font-size:large;
+    background-color:rgb(243, 238, 245);
+}
+#h1{
+   /* background-color: #04AA6D; */
+    width: 200px;
+    padding: 25px;
+    margin: 20px;
+    text-align: center;
+    margin-left : 111px;
+    border-radius: 10px;
+    color: darkgreen;
+  
+    
+    
+}
+
+form{
+    margin:0;
+    padding: 0;
+    border:white;
+    /* border-radiuSSSs:10px; */
+    /* background-image: url(signup_back.png); */
+    background-size: cover;
+    background-position: center;
+    /* background-color: rgb(87, 84, 84); */
+    /* z-index: 15; */
+}
+/* Full-width input fields */
+  input[type=text] {
+  width: 70%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display:flex;
+  border:#070707;
+  background: #d8d0d0;
+  border-radius:10px;
+}
+
+input[type=text]:focus{
+  background-color: #ddd;
+  outline: none;
+  
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius:50px;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+
+/* Float cancel and signup buttons and add an equal width */
+.signupbtn {
+z-index: 10px;
+margin-left: 30px;
+  width: 40%;
+  border-radius: 10px;
+}
+
+/* Add padding to container elements */
+.container {
+  width: 515px;
+  border:1px solid black;
+  /* border-sizing:border-box; */
+  box-shadow: 0 0 3px 0 rgbs(0,0,0,0.3);
+  background: #ffff;
+  padding: 20px;
+  margin: 8% auto 0;
+  text-align: center;
+  border-radius:50px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .signupbtn {
+    width: 100%;
+  }
+}
